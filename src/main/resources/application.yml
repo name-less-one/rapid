@@ -1,9 +1,9 @@
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:./h2db/sampledb;MODE=PostgreSQL
-    username: username
-    password: password
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgres://uxllnyewecjioh:6c6ae6cc14c00728e9afbc5f7c8beaf5d7d861efa129b77163fa0f930317854c@ec2-44-198-215-235.compute-1.amazonaws.com:5432/d1uofst5qs8ove
+    username: uxllnyewecjioh
+    password: 6c6ae6cc14c00728e9afbc5f7c8beaf5d7d861efa129b77163fa0f930317854c
 
 server:
   port: 8080
