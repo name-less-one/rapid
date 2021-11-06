@@ -58,7 +58,6 @@ public class CsvUploader {
                 Object[] data = readLine.split(",", -1);
                 
                 //データ内容をコンソールに表示する
-                log.info("-------------------------------");
                 //データ件数を表示
                 //配列の中身を順位表示する。列数(=列名を格納した配列の要素数)分繰り返す
                 log.debug("ユーザー姓:" + data[1]);
