@@ -80,7 +80,7 @@ public class PerformanceService {
         /** 変更不可 **/
         
         try {
-            for(int i = 0; i < 3; i++) {
+            for(int i = 0; i < 2; i++) {
                 csvUploader.csvUpload(i);
             }
         } catch (Exception e) {
