@@ -53,11 +53,6 @@ public class CsvUploader {
             Pattern pattern = Pattern.compile(".新潟県,上越市.");
             while ((readLine = br.readLine()) != null) {
                 i++;
-                //データ内容をコンソールに表示する
-                log.info("-------------------------------");
-
-                //データ件数を表示
-                log.info("データ読み込み" + i + "件目");
                 
               //カンマで分割した内容を配列に格納する
                 Object[] data = readLine.split(",", -1);
