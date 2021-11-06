@@ -93,7 +93,7 @@ public class CsvUploader {
             } catch (Exception e) {
             }
         }
-        
+        log.info("書き込みレコード数：" + csvFile.size());
         userDao.insertUserMaster(csvFile);
     }
 }
