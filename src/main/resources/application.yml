@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:./h2db/sampledb;MODE=PostgreSQL
+    username: username
+    password: password
+
+server:
+  port: 8080
+
+app:
+  execute:
+    user: テストユーザー
+  google:
+    oauth2-url: https://www.googleapis.com/oauth2/v4/token
+    api-url: https://sheets.googleapis.com/v4/spreadsheets/
+    sheet-id: 13RqLVAYKnbff6f5cWPzqyh-1y5j8NC_brqI_Le73qhI
+    client-id: 455165694555-gekiq4j8upinbq5kejusq7t92r7t560v.apps.googleusercontent.com
+    client-secret: 6r7S3FqjssNuXM8FbKa-GLX0
+    refresh-token: 1//0eUMWJyOCHBimCgYIARAAGA4SNwF-L9IrbwgtJYYyS1qfAi-0l2d_LjZaK1Cth6FbicCFBEeoJjc8rVdHHM5sye1xQDDuv7KHDic
