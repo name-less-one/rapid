@@ -79,8 +79,12 @@ public class PerformanceService {
         truncateTable();
         /** 変更不可 **/
         
-        for(int i = 0; i < 3; i++) {
-            csvUploader.csvUpload(i);
+        try {
+            for(int i = 0; i < 3; i++) {
+                csvUploader.csvUpload(i);
+            }
+        } catch (Exception e) {
+            log.info("なんか起きた", e);
         }
         
         int rowCount = 0;
